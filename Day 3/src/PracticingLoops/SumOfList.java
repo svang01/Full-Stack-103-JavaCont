@@ -1,4 +1,4 @@
-package PractcingLoops;
+package PracticingLoops;
 import java.util.ArrayList;
 import java.util.Scanner;
 
