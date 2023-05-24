@@ -100,7 +100,7 @@ public class Main {
     }
 
     public static void Identifier() {
-        String text = "_validIdentifier123";
+        String text = "_validIdentifier178";
         String regex = "^[a-zA-Z_$][a-zA-Z_$0-9]*$";
 
         Pattern pattern = Pattern.compile(regex);
@@ -137,7 +137,7 @@ public class Main {
         if(matcher.matches()) {
             System.out.println(text + " is a valid time");
         } else {
-            System.out.println("Invalid Time");
+            System.out.println("Invalid Time");;
         }
     }
 }
